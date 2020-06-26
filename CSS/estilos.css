@@ -1,0 +1,127 @@
+/* COMENTÁRIO */
+
+.a{
+    background-color: rgba(94, 231, 213, 0.678);
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 100px;
+    
+}
+
+body{
+    background-color: rgba(56, 141, 141, 0.603);
+
+    background-size: 100vw auto;
+    
+}
+
+.menu{
+    background-color: rgb(90, 146, 153);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    
+}
+.menu ul{
+display: flex;
+justify-content: space-around;
+}
+.menu li{
+list-style: none;
+}
+
+a{
+color: black;
+text-decoration: none;
+
+}
+
+a:hover{
+ text-decoration: underline;
+ font-size: 20px;
+}
+
+.foto{
+    margin-top: 24px;
+    width:200px;
+	border: radius 4;
+	border:5px solid rgb(0, 0, 0);
+}
+
+.nome{
+    font-family: 'Impact';
+    font-size: 28px; 
+    color: #254c5f;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.formacao{
+    height: 200px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-left: 18px;
+}
+
+.foto2{
+    margin-top: 24px;
+    width:200px;
+	border: radius 4;
+    border:5px solid rgb(0, 0, 0);
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.botao{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #2dcaa8e8;
+    border: none;
+    border-radius: 20px;
+    padding-right: 15%;
+    padding-left: 15%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    font-family: 'Impact';
+    font-size: 28px; 
+    color: #254c5f;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.linha{
+    margin-top: 1,2%;
+}
+
+.teste{
+    font-family: 'Impact';
+    font-size: 28px; 
+    color: #254c5f;
+    text-align: center;
+}
+
+
