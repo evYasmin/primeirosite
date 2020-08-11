@@ -101,8 +101,8 @@ a:hover{
 
 .flex{
     display: flex;
-    justify-content: center;
-    align-items: center;
+  
+   
 }
 
 .top{
@@ -114,7 +114,8 @@ a:hover{
 }
 
 .linha{
-    margin-top: 1,2%;
+margin-top: 1px;
+
 }
 
 .teste{
@@ -122,6 +123,39 @@ a:hover{
     font-size: 28px; 
     color: #254c5f;
     text-align: center;
+}
+
+
+
+.button-entrar{
+    margin-top: 25px;
+    font: 25px 'calibri';
+    font-weight: lighter;
+    margin-bottom: 5px;
+    border: 2px solid #254c5f;
+    border-radius: 34px;
+    padding: 8px;
+    width: 90px;
+    margin-bottom: unset;
+    transition: all 0.5s;
+    color: #254c5f; 
+    background-color: #2dbfca81;
+    text-align: center;
+   
+   
+}
+
+.card{
+    border: 2px solid #254c5f;
+    border-radius: 34px;
+    padding: 12px;
+    width: 200px;
+    margin: 0 auto;
+    transition: all 0.5s;
+    color: #254c5f; 
+    background-color: #2dbfca81;
+    text-align: center;
+   margin-bottom: 15px;
 }
 
 
